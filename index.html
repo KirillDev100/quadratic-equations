@@ -11,7 +11,7 @@
 	<h1>Решить квадратное уравнение</h1>
 	<form action="" method="post" id="equation-form">
 		<label for="equation">Введите уравнение в виде ax^2 + bx + c: <br>
-			<input type="text" id="equation-input" name="equation-input" required> = 0<br><br>
+			<input type="text" id="equation-input" name="equation-input" required pattern="[0-9x\.\^\+\-\s]+" placeholder="ax^2+bx+c"> = 0<br><br>
 		</label>
 		<input type="submit" value="Решить">
 	</form>
